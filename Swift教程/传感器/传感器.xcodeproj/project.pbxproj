@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7B76161DF42E61002E6D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B76151DF42E61002E6D14 /* AppDelegate.swift */; };
+		6C7B76181DF42E61002E6D14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B76171DF42E61002E6D14 /* ViewController.swift */; };
+		6C7B761B1DF42E61002E6D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B76191DF42E61002E6D14 /* Main.storyboard */; };
+		6C7B761D1DF42E61002E6D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B761C1DF42E61002E6D14 /* Assets.xcassets */; };
+		6C7B76201DF42E61002E6D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B761E1DF42E61002E6D14 /* LaunchScreen.storyboard */; };
+		6C7B762B1DF42E61002E6D14 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B762A1DF42E61002E6D14 /* ___Tests.swift */; };
+		6C7B76361DF42E61002E6D14 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B76351DF42E61002E6D14 /* ___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C7B76271DF42E61002E6D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7B760A1DF42E60002E6D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7B76111DF42E60002E6D14;
+			remoteInfo = "传感器";
+		};
+		6C7B76321DF42E61002E6D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7B760A1DF42E60002E6D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7B76111DF42E60002E6D14;
+			remoteInfo = "传感器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C7B76121DF42E61002E6D14 /* 传感器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "传感器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7B76151DF42E61002E6D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C7B76171DF42E61002E6D14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C7B761A1DF42E61002E6D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7B761C1DF42E61002E6D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7B761F1DF42E61002E6D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C7B76211DF42E61002E6D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7B76261DF42E61002E6D14 /* 传感器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "传感器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7B762A1DF42E61002E6D14 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		6C7B762C1DF42E61002E6D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7B76311DF42E61002E6D14 /* 传感器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "传感器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7B76351DF42E61002E6D14 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		6C7B76371DF42E61002E6D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7B760F1DF42E60002E6D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B76231DF42E61002E6D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B762E1DF42E61002E6D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7B76091DF42E60002E6D14 = {
+			isa = PBXGroup;
+			children = (
+				6C7B76141DF42E61002E6D14 /* 传感器 */,
+				6C7B76291DF42E61002E6D14 /* 传感器Tests */,
+				6C7B76341DF42E61002E6D14 /* 传感器UITests */,
+				6C7B76131DF42E61002E6D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7B76131DF42E61002E6D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B76121DF42E61002E6D14 /* 传感器.app */,
+				6C7B76261DF42E61002E6D14 /* 传感器Tests.xctest */,
+				6C7B76311DF42E61002E6D14 /* 传感器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7B76141DF42E61002E6D14 /* 传感器 */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B76151DF42E61002E6D14 /* AppDelegate.swift */,
+				6C7B76171DF42E61002E6D14 /* ViewController.swift */,
+				6C7B76191DF42E61002E6D14 /* Main.storyboard */,
+				6C7B761C1DF42E61002E6D14 /* Assets.xcassets */,
+				6C7B761E1DF42E61002E6D14 /* LaunchScreen.storyboard */,
+				6C7B76211DF42E61002E6D14 /* Info.plist */,
+			);
+			path = "传感器";
+			sourceTree = "<group>";
+		};
+		6C7B76291DF42E61002E6D14 /* 传感器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B762A1DF42E61002E6D14 /* ___Tests.swift */,
+				6C7B762C1DF42E61002E6D14 /* Info.plist */,
+			);
+			path = "传感器Tests";
+			sourceTree = "<group>";
+		};
+		6C7B76341DF42E61002E6D14 /* 传感器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B76351DF42E61002E6D14 /* ___UITests.swift */,
+				6C7B76371DF42E61002E6D14 /* Info.plist */,
+			);
+			path = "传感器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7B76111DF42E60002E6D14 /* 传感器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B763A1DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器" */;
+			buildPhases = (
+				6C7B760E1DF42E60002E6D14 /* Sources */,
+				6C7B760F1DF42E60002E6D14 /* Frameworks */,
+				6C7B76101DF42E60002E6D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "传感器";
+			productName = "传感器";
+			productReference = 6C7B76121DF42E61002E6D14 /* 传感器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C7B76251DF42E61002E6D14 /* 传感器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B763D1DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器Tests" */;
+			buildPhases = (
+				6C7B76221DF42E61002E6D14 /* Sources */,
+				6C7B76231DF42E61002E6D14 /* Frameworks */,
+				6C7B76241DF42E61002E6D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7B76281DF42E61002E6D14 /* PBXTargetDependency */,
+			);
+			name = "传感器Tests";
+			productName = "传感器Tests";
+			productReference = 6C7B76261DF42E61002E6D14 /* 传感器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C7B76301DF42E61002E6D14 /* 传感器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B76401DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器UITests" */;
+			buildPhases = (
+				6C7B762D1DF42E61002E6D14 /* Sources */,
+				6C7B762E1DF42E61002E6D14 /* Frameworks */,
+				6C7B762F1DF42E61002E6D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7B76331DF42E61002E6D14 /* PBXTargetDependency */,
+			);
+			name = "传感器UITests";
+			productName = "传感器UITests";
+			productReference = 6C7B76311DF42E61002E6D14 /* 传感器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7B760A1DF42E60002E6D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "🍋";
+				TargetAttributes = {
+					6C7B76111DF42E60002E6D14 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VAG9DN592V;
+						ProvisioningStyle = Automatic;
+					};
+					6C7B76251DF42E61002E6D14 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C7B76111DF42E60002E6D14;
+					};
+					6C7B76301DF42E61002E6D14 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C7B76111DF42E60002E6D14;
+					};
+				};
+			};
+			buildConfigurationList = 6C7B760D1DF42E60002E6D14 /* Build configuration list for PBXProject "传感器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7B76091DF42E60002E6D14;
+			productRefGroup = 6C7B76131DF42E61002E6D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7B76111DF42E60002E6D14 /* 传感器 */,
+				6C7B76251DF42E61002E6D14 /* 传感器Tests */,
+				6C7B76301DF42E61002E6D14 /* 传感器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7B76101DF42E60002E6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B76201DF42E61002E6D14 /* LaunchScreen.storyboard in Resources */,
+				6C7B761D1DF42E61002E6D14 /* Assets.xcassets in Resources */,
+				6C7B761B1DF42E61002E6D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B76241DF42E61002E6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B762F1DF42E61002E6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7B760E1DF42E60002E6D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B76181DF42E61002E6D14 /* ViewController.swift in Sources */,
+				6C7B76161DF42E61002E6D14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B76221DF42E61002E6D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B762B1DF42E61002E6D14 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7B762D1DF42E61002E6D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B76361DF42E61002E6D14 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C7B76281DF42E61002E6D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7B76111DF42E60002E6D14 /* 传感器 */;
+			targetProxy = 6C7B76271DF42E61002E6D14 /* PBXContainerItemProxy */;
+		};
+		6C7B76331DF42E61002E6D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7B76111DF42E60002E6D14 /* 传感器 */;
+			targetProxy = 6C7B76321DF42E61002E6D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C7B76191DF42E61002E6D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B761A1DF42E61002E6D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C7B761E1DF42E61002E6D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B761F1DF42E61002E6D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7B76381DF42E61002E6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7B76391DF42E61002E6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7B763B1DF42E61002E6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAG9DN592V;
+				INFOPLIST_FILE = "传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C7B763C1DF42E61002E6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAG9DN592V;
+				INFOPLIST_FILE = "传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C7B763E1DF42E61002E6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/传感器.app/传感器";
+			};
+			name = Debug;
+		};
+		6C7B763F1DF42E61002E6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/传感器.app/传感器";
+			};
+			name = Release;
+		};
+		6C7B76411DF42E61002E6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "传感器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "传感器";
+			};
+			name = Debug;
+		};
+		6C7B76421DF42E61002E6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "传感器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "传感器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7B760D1DF42E60002E6D14 /* Build configuration list for PBXProject "传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B76381DF42E61002E6D14 /* Debug */,
+				6C7B76391DF42E61002E6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7B763A1DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B763B1DF42E61002E6D14 /* Debug */,
+				6C7B763C1DF42E61002E6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7B763D1DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B763E1DF42E61002E6D14 /* Debug */,
+				6C7B763F1DF42E61002E6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7B76401DF42E61002E6D14 /* Build configuration list for PBXNativeTarget "传感器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B76411DF42E61002E6D14 /* Debug */,
+				6C7B76421DF42E61002E6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7B760A1DF42E60002E6D14 /* Project object */;
+}

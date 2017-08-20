@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C84F5E11D93AEB7005256A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84F5E01D93AEB7005256A9 /* AppDelegate.swift */; };
+		6C84F5E31D93AEB7005256A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84F5E21D93AEB7005256A9 /* ViewController.swift */; };
+		6C84F5E61D93AEB7005256A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C84F5E41D93AEB7005256A9 /* Main.storyboard */; };
+		6C84F5E81D93AEB7005256A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C84F5E71D93AEB7005256A9 /* Assets.xcassets */; };
+		6C84F5EB1D93AEB7005256A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C84F5E91D93AEB7005256A9 /* LaunchScreen.storyboard */; };
+		6C84F5F61D93AEB7005256A9 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84F5F51D93AEB7005256A9 /* ______Tests.swift */; };
+		6C84F6011D93AEB8005256A9 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84F6001D93AEB8005256A9 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C84F5F21D93AEB7005256A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C84F5D51D93AEB7005256A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84F5DC1D93AEB7005256A9;
+			remoteInfo = "播放乐库音乐";
+		};
+		6C84F5FD1D93AEB8005256A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C84F5D51D93AEB7005256A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84F5DC1D93AEB7005256A9;
+			remoteInfo = "播放乐库音乐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C84F5DD1D93AEB7005256A9 /* 播放乐库音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "播放乐库音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C84F5E01D93AEB7005256A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C84F5E21D93AEB7005256A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C84F5E51D93AEB7005256A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C84F5E71D93AEB7005256A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C84F5EA1D93AEB7005256A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C84F5EC1D93AEB7005256A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C84F5F11D93AEB7005256A9 /* 播放乐库音乐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放乐库音乐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C84F5F51D93AEB7005256A9 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		6C84F5F71D93AEB7005256A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C84F5FC1D93AEB8005256A9 /* 播放乐库音乐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放乐库音乐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C84F6001D93AEB8005256A9 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		6C84F6021D93AEB8005256A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C84F5DA1D93AEB7005256A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5EE1D93AEB7005256A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5F91D93AEB8005256A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C84F5D41D93AEB7005256A9 = {
+			isa = PBXGroup;
+			children = (
+				6C84F5DF1D93AEB7005256A9 /* 播放乐库音乐 */,
+				6C84F5F41D93AEB7005256A9 /* 播放乐库音乐Tests */,
+				6C84F5FF1D93AEB8005256A9 /* 播放乐库音乐UITests */,
+				6C84F5DE1D93AEB7005256A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C84F5DE1D93AEB7005256A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C84F5DD1D93AEB7005256A9 /* 播放乐库音乐.app */,
+				6C84F5F11D93AEB7005256A9 /* 播放乐库音乐Tests.xctest */,
+				6C84F5FC1D93AEB8005256A9 /* 播放乐库音乐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C84F5DF1D93AEB7005256A9 /* 播放乐库音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				6C84F5E01D93AEB7005256A9 /* AppDelegate.swift */,
+				6C84F5E21D93AEB7005256A9 /* ViewController.swift */,
+				6C84F5E41D93AEB7005256A9 /* Main.storyboard */,
+				6C84F5E71D93AEB7005256A9 /* Assets.xcassets */,
+				6C84F5E91D93AEB7005256A9 /* LaunchScreen.storyboard */,
+				6C84F5EC1D93AEB7005256A9 /* Info.plist */,
+			);
+			path = "播放乐库音乐";
+			sourceTree = "<group>";
+		};
+		6C84F5F41D93AEB7005256A9 /* 播放乐库音乐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C84F5F51D93AEB7005256A9 /* ______Tests.swift */,
+				6C84F5F71D93AEB7005256A9 /* Info.plist */,
+			);
+			path = "播放乐库音乐Tests";
+			sourceTree = "<group>";
+		};
+		6C84F5FF1D93AEB8005256A9 /* 播放乐库音乐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C84F6001D93AEB8005256A9 /* ______UITests.swift */,
+				6C84F6021D93AEB8005256A9 /* Info.plist */,
+			);
+			path = "播放乐库音乐UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C84F5DC1D93AEB7005256A9 /* 播放乐库音乐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C84F6051D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐" */;
+			buildPhases = (
+				6C84F5D91D93AEB7005256A9 /* Sources */,
+				6C84F5DA1D93AEB7005256A9 /* Frameworks */,
+				6C84F5DB1D93AEB7005256A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "播放乐库音乐";
+			productName = "播放乐库音乐";
+			productReference = 6C84F5DD1D93AEB7005256A9 /* 播放乐库音乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C84F5F01D93AEB7005256A9 /* 播放乐库音乐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C84F6081D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐Tests" */;
+			buildPhases = (
+				6C84F5ED1D93AEB7005256A9 /* Sources */,
+				6C84F5EE1D93AEB7005256A9 /* Frameworks */,
+				6C84F5EF1D93AEB7005256A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C84F5F31D93AEB7005256A9 /* PBXTargetDependency */,
+			);
+			name = "播放乐库音乐Tests";
+			productName = "播放乐库音乐Tests";
+			productReference = 6C84F5F11D93AEB7005256A9 /* 播放乐库音乐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C84F5FB1D93AEB8005256A9 /* 播放乐库音乐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C84F60B1D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐UITests" */;
+			buildPhases = (
+				6C84F5F81D93AEB8005256A9 /* Sources */,
+				6C84F5F91D93AEB8005256A9 /* Frameworks */,
+				6C84F5FA1D93AEB8005256A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C84F5FE1D93AEB8005256A9 /* PBXTargetDependency */,
+			);
+			name = "播放乐库音乐UITests";
+			productName = "播放乐库音乐UITests";
+			productReference = 6C84F5FC1D93AEB8005256A9 /* 播放乐库音乐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C84F5D51D93AEB7005256A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "🍋";
+				TargetAttributes = {
+					6C84F5DC1D93AEB7005256A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VAG9DN592V;
+						ProvisioningStyle = Automatic;
+					};
+					6C84F5F01D93AEB7005256A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C84F5DC1D93AEB7005256A9;
+					};
+					6C84F5FB1D93AEB8005256A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C84F5DC1D93AEB7005256A9;
+					};
+				};
+			};
+			buildConfigurationList = 6C84F5D81D93AEB7005256A9 /* Build configuration list for PBXProject "播放乐库音乐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C84F5D41D93AEB7005256A9;
+			productRefGroup = 6C84F5DE1D93AEB7005256A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C84F5DC1D93AEB7005256A9 /* 播放乐库音乐 */,
+				6C84F5F01D93AEB7005256A9 /* 播放乐库音乐Tests */,
+				6C84F5FB1D93AEB8005256A9 /* 播放乐库音乐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C84F5DB1D93AEB7005256A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84F5EB1D93AEB7005256A9 /* LaunchScreen.storyboard in Resources */,
+				6C84F5E81D93AEB7005256A9 /* Assets.xcassets in Resources */,
+				6C84F5E61D93AEB7005256A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5EF1D93AEB7005256A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5FA1D93AEB8005256A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C84F5D91D93AEB7005256A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84F5E31D93AEB7005256A9 /* ViewController.swift in Sources */,
+				6C84F5E11D93AEB7005256A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5ED1D93AEB7005256A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84F5F61D93AEB7005256A9 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C84F5F81D93AEB8005256A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84F6011D93AEB8005256A9 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C84F5F31D93AEB7005256A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84F5DC1D93AEB7005256A9 /* 播放乐库音乐 */;
+			targetProxy = 6C84F5F21D93AEB7005256A9 /* PBXContainerItemProxy */;
+		};
+		6C84F5FE1D93AEB8005256A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84F5DC1D93AEB7005256A9 /* 播放乐库音乐 */;
+			targetProxy = 6C84F5FD1D93AEB8005256A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C84F5E41D93AEB7005256A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C84F5E51D93AEB7005256A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C84F5E91D93AEB7005256A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C84F5EA1D93AEB7005256A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C84F6031D93AEB8005256A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C84F6041D93AEB8005256A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C84F6061D93AEB8005256A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAG9DN592V;
+				INFOPLIST_FILE = "播放乐库音乐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.use;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C84F6071D93AEB8005256A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAG9DN592V;
+				INFOPLIST_FILE = "播放乐库音乐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.use;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C84F6091D93AEB8005256A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "播放乐库音乐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/播放乐库音乐.app/播放乐库音乐";
+			};
+			name = Debug;
+		};
+		6C84F60A1D93AEB8005256A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "播放乐库音乐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/播放乐库音乐.app/播放乐库音乐";
+			};
+			name = Release;
+		};
+		6C84F60C1D93AEB8005256A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "播放乐库音乐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "播放乐库音乐";
+			};
+			name = Debug;
+		};
+		6C84F60D1D93AEB8005256A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "播放乐库音乐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "播放乐库音乐";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C84F5D81D93AEB7005256A9 /* Build configuration list for PBXProject "播放乐库音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84F6031D93AEB8005256A9 /* Debug */,
+				6C84F6041D93AEB8005256A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C84F6051D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84F6061D93AEB8005256A9 /* Debug */,
+				6C84F6071D93AEB8005256A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C84F6081D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84F6091D93AEB8005256A9 /* Debug */,
+				6C84F60A1D93AEB8005256A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C84F60B1D93AEB8005256A9 /* Build configuration list for PBXNativeTarget "播放乐库音乐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84F60C1D93AEB8005256A9 /* Debug */,
+				6C84F60D1D93AEB8005256A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C84F5D51D93AEB7005256A9 /* Project object */;
+}
